@@ -9,17 +9,17 @@
 # INSTALLATION:
 
 1. Install XCode (For MAC users)
-    - You can get this through the Apple Store or Self Service
+    - You can get this through the Apple Store
 
 2. Install NodeJS 8.6.0 (recomended version)
 
-4. Disable ssl validation: `npm config set strict-ssl false`
+3. Disable ssl validation: `npm config set strict-ssl false`
 
-5. `git clone https://github.com/aniket2305/casino-test-app.git` - clone project
+4. `git clone https://github.com/aniket2305/casino-test-app.git` - clone project
 
-6. `cd casino-test-app` - go to project folder
+5. `cd casino-test-app` - go to project folder
 
-7. `npm install` - this will install all the dependencies mentioned in package.json
+6. `npm install` - this will install all the dependencies mentioned in package.json
 
 ***
 
