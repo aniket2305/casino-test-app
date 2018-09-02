@@ -6,5 +6,5 @@ thumb.db
 
 # Directories to be ignored
 node_modules
-dist
+build
 .vscode
