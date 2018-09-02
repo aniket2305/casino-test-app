@@ -1,0 +1,19 @@
+button.reload-button {
+	width: 100px;
+	height: 100px;
+	margin: 0px auto;
+	background: url('../../image/button.png') center center no-repeat;
+	cursor: pointer;
+	border: none;
+    outline: none;
+	display: inline-block;
+	margin-top: -60px; 
+}
+
+button.reload-button{
+	&:disabled{
+		cursor: default;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+}

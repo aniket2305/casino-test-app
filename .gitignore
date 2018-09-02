@@ -1,0 +1,10 @@
+# Files to be ignored
+.DS_Store
+.idea
+npm-debug.log
+thumb.db
+
+# Directories to be ignored
+node_modules
+dist
+.vscode

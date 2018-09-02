@@ -1,0 +1,42 @@
+// Flexbox display
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  @mixin justify-content($justify) {
+    -webkit-justify-content: $justify;
+       -moz-justify-content: $justify;
+        -ms-justify-content: $justify;
+            justify-content: $justify;
+              -ms-flex-pack: $justify;
+  }
+  
+  @mixin align-items($align) {
+    -webkit-align-items: $align;
+       -moz-align-items: $align;
+        -ms-align-items: $align;
+            align-items: $align;
+  }
+
+
+// border-radius
+
+  @mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+  
+//  box-shadow
+
+  @mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+       -moz-box-shadow: $shadow;
+        -ms-box-shadow: $shadow;
+            box-shadow: $shadow;
+  }

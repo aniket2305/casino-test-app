@@ -1,0 +1,10 @@
+/* import all styles */
+
+@import './base.scss';
+@import './variables.scss';
+@import './mixins.scss';
+@import '../components/bonusComp/bonus.scss';
+@import '../components/gameStartScreen/game-start-screen.scss';
+@import '../components/outcomeGraphic/outcome-graphic.scss';
+@import '../components/reloadButton/reload-button.scss';
+@import '../components/winOutcomeMsg/win-outcome-msg.scss';

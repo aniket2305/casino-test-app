@@ -1,0 +1,33 @@
+bonus-component{
+	display: none ;
+	margin: 0 auto;
+	position: relative;
+	margin-top: -70px;
+	z-index: 10; 
+	.wrapElem{
+		@include border-radius(20px);
+		background: $color-win-msg-bg;
+		width: 480px;
+		margin: 0 auto;
+		padding: 20px;
+		color: $color-win-msg;
+		text-shadow:2px 1px #fefe00;
+		border-top: 5px solid $color-win-msg;
+		border-bottom: 5px solid $color-win-msg; 
+		h3 {
+			font-size: 30px;
+			margin-bottom: 10px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+} 
+
+bonus-component.show {
+	display: block;
+}
+
+bonus-component.hide {
+	display: none;
+}

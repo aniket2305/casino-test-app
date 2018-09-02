@@ -1,0 +1,41 @@
+{
+  "name": "casino-game-app",
+  "version": "1.0.0",
+  "description": "casino game app test code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts .mocharc -w",
+    "start": "babel-node ./src/server/server.js",
+    "build": "webpack --config webpack/webpack.config.prod.js"
+  },
+  "author": "aniket.saxena16@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "chai-dom": "^1.8.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "mock-browser": "^0.92.14",
+    "node-sass": "^4.9.3",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^7.1.0",
+    "sinon": "^6.1.5",
+    "sinon-chai": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-dev-middleware": "^3.2.0",
+    "webpack-dev-server": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
