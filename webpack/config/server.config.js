@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 const config = {
+	target: 'node',
 	entry: {
 		app: './src/server/server-build.js'
 	},
