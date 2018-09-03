@@ -1,4 +1,3 @@
-
 export default class BonusComponent {
     constructor(){
         this.element = document.createElement('bonus-component');

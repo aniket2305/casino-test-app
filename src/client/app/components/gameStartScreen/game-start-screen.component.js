@@ -1,8 +1,10 @@
+//import all the required component
 import BonusComponent from '../bonusComp/bonus.component';
 import WinOutcomeMsgComponent from '../winOutcomeMsg/win-outcome-msg.component';
 import OutcomeGraphicComponent from '../outcomeGraphic/outcome-graphic.component';
 import ReloadButtonComponent from '../reloadButton/reload-button.component';
 
+// service to fetch result
 import RandomOutcomeService from '../../service/random-outcome.service';
 
 export default class GameStartScreenComponent {

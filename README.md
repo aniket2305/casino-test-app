@@ -12,6 +12,8 @@
     - You can get this through the Apple Store
 
 2. Install NodeJS 8.6.0 (recomended version)
+    - Install NodeJS from brew - http://blog.teamtreehouse.com/install-node-js-npm-mac
+    - Install NodeJS directly from - https://nodejs.org/en/ (not recommended).
 
 3. Disable ssl validation: `npm config set strict-ssl false`
 
@@ -53,3 +55,8 @@ To create a build, run `npm run build`. Then deploy build folder on server.
 ```
 npm run build
 ```
+
+### Device/Browser Testing
+
+This application is tested on chrome, safari on Mac and different mobile devices like iphone and some android devices.
+
